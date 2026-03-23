@@ -73,7 +73,7 @@ export default function ScanPage({ params }: { params: { id: string } }) {
                 setResult(final);
               }
             } catch {}
-          }, 1500);
+          }, 800);
         }
       } catch {
         setError('Scan bulunamadı veya bir hata oluştu.');
